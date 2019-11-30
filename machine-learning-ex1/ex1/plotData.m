@@ -18,6 +18,9 @@ figure; % open a new figure window
 
 
 
+plot(x,y, 'rx', 'MarketSize', 10);         % Plot the data
+ylabel('Profit in $10,00s');               % Set the y?axis label
+xlabel('Population of City in 10,000s');   % Set the x?axis label
 
 
 % ============================================================

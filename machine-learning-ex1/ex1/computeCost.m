@@ -14,6 +14,12 @@ J = 0;
 %               You should set J to the cost.
 
 
+h = X*theta;
+err = h-y;
+error_sqr = err.^2;
+J = 1/2*(1/m)*sum(error_sqr);
+
+
 
 
 
